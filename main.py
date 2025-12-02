@@ -39,48 +39,63 @@ async def zakaz(m: Message):
     await m.answer("Qaysi gulni zakaz qilasiz?", reply_markup=flowers)
 @dp.message(F.text=="Atirgul")
 async def Rosa(m:Message):
+    await m.answer("Narxi: 15.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Lala")
 async def Tulip(m:Message):
+    await m.answer("Narxi: 12.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Liliya")
 async def Lilium(m:Message):
+    await m.answer("Narxi: 18.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Orxideya")
 async def Orchid(m:Message):
+    await m.answer("Narxi: 25.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Kaktus")
 async def Kaktus(m:Message):
+    await m.answer("Narxi: 8.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Nargiz")
 async def Narcissus(m:Message):
+    await m.answer("Narxi: 14.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Peoniya")
 async def Pion(m:Message):
+    await m.answer("Narxi: 22.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Forsitiya")
 async def Forsythia(m:Message):
+    await m.answer("Narxi: 10.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Lavanda")
 async def Lavanda(m:Message):
+    await m.answer("Narxi: 13.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Gordenziya")
 async def Hydrangea(m:Message):
+    await m.answer("Narxi: 17.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Freziya")
 async def Hibiscus(m:Message):
+    await m.answer("Narxi: 11.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Kameliya")
 async def Hibiscus(m:Message):
+    await m.answer("Narxi: 19.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Xrizantema")
 async def Hibiscus(m:Message):
+    await m.answer("Narxi: 16.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Begoniya")
 async def Hibiscus(m:Message):
+    await m.answer("Narxi: 9.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Jasmin")
 async def Hibiscus(m:Message):
+    await m.answer("Narxi: 20.000 so`m")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text == "<-Orqaga")
 async def send_back(message: Message):
