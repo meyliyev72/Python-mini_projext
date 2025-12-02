@@ -7,8 +7,8 @@ from aiogram.types import (
     FSInputFile
 )
 from aiogram.filters import Command,CommandStart
-TOKEN = "8035405587:AAGiWmuaWK9IOZoYCgM-bN4e6xaXR6lejl8"
-bot = Bot(TOKEN)
+token = "8035405587:AAGiWmuaWK9IOZoYCgM-bN4e6xaXR6lejl8"
+bot = Bot(token)
 menu=ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Start"),KeyboardButton(text="Help")],
@@ -470,4 +470,5 @@ async def main():
     print("Bot started...")
     await dp.start_polling(bot)
 if __name__=="__main__":
+
     asyncio.run(main())
