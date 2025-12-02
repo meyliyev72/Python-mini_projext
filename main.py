@@ -39,168 +39,48 @@ async def zakaz(m: Message):
     await m.answer("Qaysi gulni zakaz qilasiz?", reply_markup=flowers)
 @dp.message(F.text=="Atirgul")
 async def Rosa(m:Message):
-    photo1=FSInputFile("flowers/image1.png")
-    await m.answer(f"""
-Atirgul (Rosa)
-Ramziy ma`nosi: Sevgi, sadoqat
-Ranglari: Qizil, oq, pushti, sariq, ko`k (sun`iy)
-Parvarish: Quyoshli joy, o`rtacha sug`orish
-                    """)
-    await m.answer_photo(photo1,caption="Bu Atirgulning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Lala")
 async def Tulip(m:Message):
-    photo2=FSInputFile("flowers/image2.png")
-    await m.answer(f"""
-Lala (Tulip)
-Asli kelib chiqishi: Turkiya va Gollandiya mashhur
-Ramzi: Tozalik va soddalik
-Gullash davri: Bahorda
-                    """)
-    await m.answer_photo(photo2,caption="Bu Lalaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Liliya")
 async def Lilium(m:Message):
-    photo3=FSInputFile("flowers/image3.png")
-    await m.answer(f"""
-Liliya (Lilium)
-Hidli va juda nafis gul
-Ramzi: Poklik, go`zallik
-Qorong`i va nam joylarda yaxshi o`sadi
-                    """)
-    await m.answer_photo(photo3,caption="Bu Liliyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Orxideya")
 async def Orchid(m:Message):
-    photo4=FSInputFile("flowers/image4.png")
-    await m.answer(f"""
-Orxideya (Orchid)
-Juda chiroyli, uy ichida o`stiriladi
-Ramzi: Nofosat, nafislik
-Mo`tadil yorug`lik talab qiladi
-                    """)
-    await m.answer_photo(photo4,caption="Bu Orxideyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Kaktus")
 async def Kaktus(m:Message):
-    photo5=FSInputFile("flowers/image5.png")
-    await m.answer(f"""
-Kaktus guli
-Juda kam sug`oriladi
-Guli juda chiroyli, ammo kam ochiladi
-Ramzi: Sabrlilik
-                    """)
-    await m.answer_photo(photo5,caption="Bu Kaktusning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Nargiz")
 async def Narcissus(m:Message):
-    photo6=FSInputFile("flowers/image6.png")
-    await m.answer(f"""
-Nargiz (Narcissus)
-Bahorda birinchi gullaydiganlardan
-Ramzi: Umid, yangilanish
-Sovuqqa chidamli
-                    """)
-    await m.answer_photo(photo6,caption="Bu Nargizning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Peoniya")
 async def Pion(m:Message):
-    photo7=FSInputFile("flowers/image7.png")
-    await m.answer(f"""
-Atirgulning navdosi – Peoniya (Pion)
-To`y va bayramlarda keng qo`llanadi
-Ramzi: Baxt, farovonlik
-Yirik guldasta hosil qiladi
-                    """)
-    await m.answer_photo(photo7,caption="Bu Peoniyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Forsitiya")
 async def Forsythia(m:Message):
-    photo8=FSInputFile("flowers/image8.png")
-    await m.answer(f"""
-Forsitiya (Forsythia)
-Erta bahor gullari
-Yorqin sariq barglarga ega
-Ramzi: Bahorning boshlanishi
-                    """)
-    await m.answer_photo(photo8,caption="Bu Forsitiyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Lavanda")
 async def Lavanda(m:Message):
-    photo9=FSInputFile("flowers/image9.png")
-    await m.answer(f"""
-Lavanda
-Xushbo`y, asabni tinchlantiradi
-Mo`tadil issiq iqlimni yaxshi ko`radi
-Ramzi: Tinchlik va musaffolik
-                    """)
-    await m.answer_photo(photo9,caption="Bu Lavandaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Gordenziya")
 async def Hydrangea(m:Message):
-    photo10=FSInputFile("flowers/image10.png")
-    await m.answer(f"""
-Gortenziya (Hydrangea)
-Ranglari tuproq pH ga qarab o`zgaradi (ko`k, pushti, oq)
-Ramzi: Do`stlik va minnatdorchilik
-Soyali joylarni yaxshi ko`radi
-                    """)
-    await m.answer_photo(photo10,caption="Bu Gortenziyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Freziya")
 async def Hibiscus(m:Message):
-    photo11=FSInputFile("flowers/image11.png")
-    await m.answer(f"""
-Freziya (Freesia)
-Juda yoqimli hidga ega
-Ko`pincha guldastalarda ishlatiladi
-Ramzi: Ishonch va sadoqat
-                    """)
-    await m.answer_photo(photo11,caption="Bu Freziyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Kameliya")
 async def Hibiscus(m:Message):
-    photo12=FSInputFile("flowers/image12.png")
-    await m.answer(f"""
-Kameliya (Camellia)
-Barglari yaltiroq, guli nozik
-Ranglari: Oq, qizil, pushti
-Ramzi: Muhabbat va hurmat
-                    """)
-    await m.answer_photo(photo12,caption="Bu Kameliyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Xrizantema")
 async def Hibiscus(m:Message):
-    photo13=FSInputFile("flowers/image13.png")
-    await m.answer(f"""
-Xrizantema (Chrysanthemum)
-Kuzda gullaydi
-Ranglari juda ko`p: oq, sariq, qizil, binafsha
-Ramzi: Uzoq umr va baxt
-                    """)
-    await m.answer_photo(photo13,caption="Bu Xrizantemaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Begoniya")
 async def Hibiscus(m:Message):
-    photo14=FSInputFile("flowers/image14.png")
-    await m.answer(f"""
-Begoniya (Begonia)
-Uy ichida yaxshi o`sadi
-Barglari ham dekorativ
-Ramzi: Samimiylik va do`stlik
-                    """)
-    await m.answer_photo(photo14,caption="Bu Begoniyaning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text=="Jasmin")
 async def Hibiscus(m:Message):
-    photo15=FSInputFile("flowers/image15.png")
-    await m.answer(f"""
-Jasmin (Yasemin)
-Juda kuchli va yoqimli hidli
-Kechasi ham hid taratadi
-Ramzi: Poklik va muhabbat
-                    """)
-    await m.answer_photo(photo15,caption="Bu Jasminning rasimi!")
     await m.answer("Sizning zakazingiz qabul qilindi!\nAgar olib borsak aloqaga chiqamiz yoki lacatsiya bo`yicha boramiz!")
 @dp.message(F.text == "<-Orqaga")
 async def send_back(message: Message):
@@ -306,7 +186,7 @@ Ramziy ma`nosi: Sevgi, sadoqat
 Ranglari: Qizil, oq, pushti, sariq, ko`k (sun`iy)
 Parvarish: Quyoshli joy, o`rtacha sug`orish
                     """)
-    await m.answer_photo(photo1)
+    await m.answer_photo(photo1,caption="Bu Atirgulning rasimi!")
 @dp.message(Command("Lala"))
 async def Tulip(m:Message):
     photo2=FSInputFile("flowers/image2.png")
@@ -316,7 +196,7 @@ Asli kelib chiqishi: Turkiya va Gollandiya mashhur
 Ramzi: Tozalik va soddalik
 Gullash davri: Bahorda
                     """)
-    await m.answer_photo(photo2)
+    await m.answer_photo(photo2,caption="Bu Lalaning rasimi!")
 @dp.message(Command("Liliya"))
 async def Lilium(m:Message):
     photo3=FSInputFile("flowers/image3.png")
@@ -326,7 +206,7 @@ Hidli va juda nafis gul
 Ramzi: Poklik, go`zallik
 Qorong`i va nam joylarda yaxshi o`sadi
                     """)
-    await m.answer_photo(photo3)
+    await m.answer_photo(photo3,caption="Bu Liliyaning rasimi!")
 @dp.message(Command("Orxideya"))
 async def Orchid(m:Message):
     photo4=FSInputFile("flowers/image4.png")
@@ -336,7 +216,7 @@ Juda chiroyli, uy ichida o`stiriladi
 Ramzi: Nofosat, nafislik
 Mo`tadil yorug`lik talab qiladi
                     """)
-    await m.answer_photo(photo4)
+    await m.answer_photo(photo4,caption="Bu Orxideyaning rasimi!")
 @dp.message(Command("Kaktus"))
 async def Kaktus(m:Message):
     photo5=FSInputFile("flowers/image5.png")
@@ -346,7 +226,7 @@ Juda kam sug`oriladi
 Guli juda chiroyli, ammo kam ochiladi
 Ramzi: Sabrlilik
                     """)
-    await m.answer_photo(photo5)
+    await m.answer_photo(photo5,caption="Bu Kaktusning rasimi!")
 @dp.message(Command("Nargiz"))
 async def Narcissus(m:Message):
     photo6=FSInputFile("flowers/image6.png")
@@ -356,7 +236,7 @@ Bahorda birinchi gullaydiganlardan
 Ramzi: Umid, yangilanish
 Sovuqqa chidamli
                     """)
-    await m.answer_photo(photo6)
+    await m.answer_photo(photo6,caption="Bu Nargizning rasimi!")
 @dp.message(Command("Peoniya"))
 async def Pion(m:Message):
     photo7=FSInputFile("flowers/image7.png")
@@ -366,7 +246,7 @@ To`y va bayramlarda keng qo`llanadi
 Ramzi: Baxt, farovonlik
 Yirik guldasta hosil qiladi
                     """)
-    await m.answer_photo(photo7)
+    await m.answer_photo(photo7,caption="Bu Peoniyaning rasimi!")
 @dp.message(Command("Forsitiya"))
 async def Forsythia(m:Message):
     photo8=FSInputFile("flowers/image8.png")
@@ -376,7 +256,7 @@ Erta bahor gullari
 Yorqin sariq barglarga ega
 Ramzi: Bahorning boshlanishi
                     """)
-    await m.answer_photo(photo8)
+    await m.answer_photo(photo8,caption="Bu Forsitiyaning rasimi!")
 @dp.message(Command("Lavanda"))
 async def Lavanda(m:Message):
     photo9=FSInputFile("flowers/image9.png")
@@ -386,7 +266,7 @@ Xushbo`y, asabni tinchlantiradi
 Mo`tadil issiq iqlimni yaxshi ko`radi
 Ramzi: Tinchlik va musaffolik
                     """)
-    await m.answer_photo(photo9)
+    await m.answer_photo(photo9,caption="Bu Lavandaning rasimi!")
 @dp.message(Command("Gordenziya"))
 async def Hydrangea(m:Message):
     photo10=FSInputFile("flowers/image10.png")
@@ -396,7 +276,7 @@ Ranglari tuproq pH ga qarab o`zgaradi (ko`k, pushti, oq)
 Ramzi: Do`stlik va minnatdorchilik
 Soyali joylarni yaxshi ko`radi
                     """)
-    await m.answer_photo(photo10)
+    await m.answer_photo(photo10,caption="Bu Gortenziyaning rasimi!")
 @dp.message(Command("Freziya"))
 async def Hibiscus(m:Message):
     photo11=FSInputFile("flowers/image11.png")
@@ -406,7 +286,7 @@ Juda yoqimli hidga ega
 Ko`pincha guldastalarda ishlatiladi
 Ramzi: Ishonch va sadoqat
                     """)
-    await m.answer_photo(photo11)
+    await m.answer_photo(photo11,caption="Bu Freziyaning rasimi!")
 @dp.message(Command("Kameliya"))
 async def Hibiscus(m:Message):
     photo12=FSInputFile("flowers/image12.png")
@@ -416,7 +296,7 @@ Barglari yaltiroq, guli nozik
 Ranglari: Oq, qizil, pushti
 Ramzi: Muhabbat va hurmat
                     """)
-    await m.answer_photo(photo12)
+    await m.answer_photo(photo12,caption="Bu Kameliyaning rasimi!")
 @dp.message(Command("Xrizantema"))
 async def Hibiscus(m:Message):
     photo13=FSInputFile("flowers/image13.png")
@@ -426,7 +306,7 @@ Kuzda gullaydi
 Ranglari juda ko`p: oq, sariq, qizil, binafsha
 Ramzi: Uzoq umr va baxt
                     """)
-    await m.answer_photo(photo13)
+    await m.answer_photo(photo13,caption="Bu Xrizantemaning rasimi!")
 @dp.message(Command("Begoniya"))
 async def Hibiscus(m:Message):
     photo14=FSInputFile("flowers/image14.png")
@@ -436,7 +316,7 @@ Uy ichida yaxshi o`sadi
 Barglari ham dekorativ
 Ramzi: Samimiylik va do`stlik
                     """)
-    await m.answer_photo(photo14)
+    await m.answer_photo(photo14,caption="Bu Begoniyaning rasimi!")
 @dp.message(Command("Jasmin"))
 async def Hibiscus(m:Message):
     photo15=FSInputFile("flowers/image15.png")
@@ -446,7 +326,7 @@ Juda kuchli va yoqimli hidli
 Kechasi ham hid taratadi
 Ramzi: Poklik va muhabbat
                     """)
-    await m.answer_photo(photo15)
+    await m.answer_photo(photo15,caption="Bu Jasminning rasimi!")
 @dp.message(F.text=="Help")
 async def Help(m:Message):
     await m.answer("""
@@ -470,5 +350,4 @@ async def main():
     print("Bot started...")
     await dp.start_polling(bot)
 if __name__=="__main__":
-
     asyncio.run(main())
